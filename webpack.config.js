@@ -18,8 +18,8 @@ module.exports = {
       patterns: [
         { from: 'src/_redirects', to: '' },
         {
-          from: 'src/assets/images/favicon.ico',
-          to: 'favicon.ico',
+          from: 'src/assets/images/favicon.png',
+          to: 'favicon.png',
         },
       ],
     }),
