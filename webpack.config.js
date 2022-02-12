@@ -21,6 +21,7 @@ module.exports = {
           from: 'src/assets/images/favicon.png',
           to: 'favicon.png',
         },
+        { from: 'CNAME', to: '' },
       ],
     }),
   ].filter(Boolean),
