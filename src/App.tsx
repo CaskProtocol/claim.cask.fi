@@ -11,8 +11,7 @@ export function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/claim" component={Claim} />
-          <Redirect exact from="/" to="/claim" />
+          <Route exact path="/" component={Claim} />
         </Switch>
       </BrowserRouter>
     </Page>
