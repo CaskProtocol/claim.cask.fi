@@ -90994,10 +90994,9 @@ function App() {
 
 
 const src_config = {
-  readOnlyChainId: Rinkeby.chainId,
+  readOnlyChainId: Mainnet.chainId,
   readOnlyUrls: {
-    [Mainnet.chainId]: "https://mainnet.infura.io/v3/14a0951f47e646c1b241aa533e150219",
-    [Rinkeby.chainId]: "https://eth-rinkeby.alchemyapi.io/v2/Nl7a65XOxquFYCwMsaKz2p-A_XVXOSxa"
+    [Mainnet.chainId]: "https://eth-mainnet.alchemyapi.io/v2/E-awhigbRZSWhC2uDwouZkQPDStrBhR8"
   },
   multicallVersion: 2
 };
