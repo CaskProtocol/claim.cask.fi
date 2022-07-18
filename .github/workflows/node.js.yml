@@ -28,6 +28,7 @@ jobs:
         cache: 'yarn'
     - run: yarn install
     - run: yarn run build
-    - run: yarn run deploy -- -u "github-actions-bot <support+actions@github.com>"
+    - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+    - run: yarn run deploy -u "github-actions-bot <support+actions@github.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
