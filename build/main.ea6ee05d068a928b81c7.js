@@ -90515,10 +90515,8 @@ const Web3ModalButton = () => {
       },
       walletconnect: {
         package: web3_provider_dist_esm,
-        chainId: 4,
         options: {
-          bridge: "https://bridge.walletconnect.org",
-          infuraId: "14a0951f47e646c1b241aa533e150219"
+          infuraId: "14a1ead267744bb2ada7ca2d0100aea2"
         }
       }
     };
