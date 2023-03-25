@@ -90981,7 +90981,7 @@ function Claim() {
 function App() {
   return /* @__PURE__ */ react_default.a.createElement(Page, null, /* @__PURE__ */ react_default.a.createElement(GlobalStyle, null), /* @__PURE__ */ react_default.a.createElement(react_router_dom_BrowserRouter, null, /* @__PURE__ */ react_default.a.createElement(react_router_Switch, null, /* @__PURE__ */ react_default.a.createElement(react_router_Route, {
     exact: true,
-    path: "/",
+    path: "/token-claim",
     component: Claim
   }))));
 }
