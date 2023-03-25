@@ -9,11 +9,7 @@ export function App() {
   return (
     <Page>
       <GlobalStyle />
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/token-claim" component={Claim} />
-        </Switch>
-      </BrowserRouter>
+        <Claim/>
     </Page>
   )
 }
