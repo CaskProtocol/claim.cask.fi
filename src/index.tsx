@@ -6,7 +6,7 @@ import { App } from './App'
 const config = {
     readOnlyChainId: Mainnet.chainId,
     readOnlyUrls: {
-        [Mainnet.chainId]: 'https://eth-mainnet.alchemyapi.io/v2/E-awhigbRZSWhC2uDwouZkQPDStrBhR8',
+        [Mainnet.chainId]: 'https://rpc.ankr.com/eth',
     },
     multicallVersion: 2 as const,
 }
