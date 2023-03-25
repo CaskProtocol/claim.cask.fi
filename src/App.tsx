@@ -11,7 +11,7 @@ export function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Claim} />
+          <Route exact path="/token-claim" component={Claim} />
         </Switch>
       </BrowserRouter>
     </Page>
